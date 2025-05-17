@@ -12,7 +12,7 @@ body {
     grid-template-rows: auto auto 1fr auto auto;
     justify-items: center;
     padding: 2em;
-    gap: 0.5em;
+    gap: 0.75em;
     min-height: 100vh;
 }
 
@@ -87,7 +87,7 @@ p {
         grid-column: 2 / span 2;
         grid-row: 2;
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
     }
 
     aside:nth-of-type(2) {
@@ -100,11 +100,11 @@ p {
     }
 
     article {
-        grid-row: 2;
+        grid-row: 3;
     }
 
     p {
-        grid-row: 1;
+        grid-row: 2;
         grid-column: 2;
         display: block;
     }
