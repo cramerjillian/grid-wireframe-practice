@@ -1,1 +1,63 @@
 @import url("./reset.css");
+
+body {
+    background-color: #b1b4bd;
+    color: white;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    justify-items: center;
+    padding: 2em;
+    gap: 0.5em;
+}
+
+.grid-container > * {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    width: 80%;
+    font-size: x-large;
+    padding: 0.1em;
+    border-radius: 10px;
+}
+
+header, aside, footer {
+    height: 2em;
+}
+
+header {
+    background-color: #9f2063;
+}
+
+aside {
+    background-color: #116395;
+}
+
+aside:nth-of-type(2) {
+    background-color: #25a4b5;
+}
+
+footer {
+    background-color: #e06b26;
+}
+
+.main {
+    background-color: #21bd7e;
+    display: grid;
+    justify-items: center;
+    gap: 0.55em;
+    padding: 0.5em 0.25em;
+}
+
+article {
+    background-color:#e4195b;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: medium;
+    height: 3.25em;
+    width: 80%;
+    border-radius: 10px;
+}
